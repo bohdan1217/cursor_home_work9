@@ -1,0 +1,103 @@
+body{
+    background:#eee;
+}
+.main-box.no-header {
+    padding: 20px 20px 20px 20px;
+}
+.main-box {
+    background: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -moz-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -o-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -ms-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    box-shadow: 1px 1px 2px 0 #CCCCCC;
+    margin-bottom: 16px;
+    -webikt-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 5px 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.create-user {
+    padding-bottom: 20px;
+}
+
+.header-body {
+    padding-top: 20px;
+}
+
+.header-body div {
+    display: inline-block;
+    width: 11.5%;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.user-list {
+    padding-bottom: 10px;
+}
+
+.form-control{
+    display: inline-block;
+    width: 10%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s
+}
+.table-link {
+    margin-left: 5px;
+    vertical-align: middle;
+    padding: 5px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    border-color: #007bff;
+    cursor: pointer;
+    width: 50px;
+}
+.table-link.save-button {
+    color: green;
+}
+.table-link.delete-button {
+    color: #e74c3c;
+}
+
+a {
+    color: #3498db;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
